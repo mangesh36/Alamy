@@ -10,6 +10,12 @@
 9)	Docker - Contanarization
 10)	ECR  - AWS elastic container registry
 
+# Approach 
+Scalability – Each microservices scale independently.
+Reusability – Helm charts and CI/CD pipeline are shared across microservices
+Flexibility – Infrastructure changes and microservices update are handle separately
+Maintainability – You only need to update the ci/cd process in one place, not across 50 different repositories. 
+
 # Common Infrastructure
 
 This repository provides the infrastructure setup for deploying microservices on an AWS EKS (Elastic Kubernetes Service) cluster. It focuses on best practices for organizing repositories and managing infrastructure components like VPC, ACM, EKS, Prometheus, Grafana, and Alert Manager. The goal is to separate concerns for scalability and maintainability.
@@ -51,4 +57,8 @@ This repository follows a modular approach:
 - **GitHub Workflows**:
   - **PR Workflow**: Automatically triggers the validation and review of Terraform code whenever a pull request (PR) is created or updated.
   - **CD Workflow**: Automatically detects changes in specific folders and triggers the deployment of those components.
+
+# Security and access Management:
+1)	Security measures are incorporated, including the use of ACM for SSL certificates and proper IAM roles and policy for cluster access.
+2)	The setup includes creating a secure load balancer to manage incoming traffic for microservices.
 
