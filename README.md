@@ -1,20 +1,20 @@
 # Tools I used
-1)	AWS Cloud
-2)	Terraform – Infrastructure as code 
-3)	GitHub Action – Automating CI/CD pipeline
-4)	Helm – Kubernetes Package Manager
-5)	EKS Cluster – Manage node groups
-6)	Prometheus – Monitoring and Metrics
-7)	Grafana – Data visualization and Dashboards
-8)	AlertManager – Configuring Alert and Notification
-9)	Docker - Contanarization
-10)	ECR  - AWS elastic container registry
+1)	**AWS Cloud**
+2)	**Terraform** – Infrastructure as code 
+3)	**GitHub Action** – Automating CI/CD pipeline
+4)	**Helm** – Kubernetes Package Manager
+5)	**EKS Cluster** – Manage node groups
+6)	**Prometheus** – Monitoring and Metrics
+7)	**Grafana** – Data visualization and Dashboards
+8)	**AlertManager** – Configuring Alert and Notification
+9)	**Docker** - Contanarization
+10)**ECR**  - AWS elastic container registry
 
 # Approach 
-Scalability – Each microservices scale independently.
-Reusability – Helm charts and CI/CD pipeline are shared across microservices
-Flexibility – Infrastructure changes and microservices update are handle separately
-Maintainability – You only need to update the ci/cd process in one place, not across 50 different repositories. 
+**Scalability** – Each microservices scale independently.
+**Reusability** – Helm charts and CI/CD pipeline are shared across microservices.
+**Flexibility** – Infrastructure changes and microservices update are handle separately.
+**Maintainability** – You only need to update the ci/cd process in one place, not across 50 different repositories. 
 
 # Common Infrastructure
 
