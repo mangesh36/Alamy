@@ -1,4 +1,4 @@
-# Spring Boot Common Infrastructure
+# Common Infrastructure
 
 This repository provides the infrastructure setup for deploying microservices on an AWS EKS (Elastic Kubernetes Service) cluster. It focuses on best practices for organizing repositories and managing infrastructure components like VPC, ACM, EKS, Prometheus, Grafana, and Alert Manager. The goal is to separate concerns for scalability and maintainability.
 
