@@ -11,10 +11,10 @@
 10)**ECR**  - AWS elastic container registry
 
 # Approach 
-**Scalability** – Each microservices scale independently.
-**Reusability** – Helm charts and CI/CD pipeline are shared across microservices.
-**Flexibility** – Infrastructure changes and microservices update are handle separately.
-**Maintainability** – You only need to update the ci/cd process in one place, not across 50 different repositories. 
+- **Scalability**  Each microservices scale independently.
+- **Reusability**  Helm charts and CI/CD pipeline are shared across microservices.
+- **Flexibility**  Infrastructure changes and microservices updates are handled separately.
+- **Maintainability**  You only need to update the ci/cd process in one place, not across 50 different repositories. 
 
 # Common Infrastructure
 
