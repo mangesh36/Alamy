@@ -1,3 +1,15 @@
+# Tools I used
+1)	AWS Cloud
+2)	Terraform – Infrastructure as code 
+3)	GitHub Action – Automating CI/CD pipeline
+4)	Helm – Kubernetes Package Manager
+5)	EKS Cluster – Manage node groups
+6)	Prometheus – Monitoring and Metrics
+7)	Grafana – Data visualization and Dashboards
+8)	AlertManager – Configuring Alert and Notification
+9)	Docker - Contanarization
+10)	ECR  - AWS elastic container registry
+
 # Common Infrastructure
 
 This repository provides the infrastructure setup for deploying microservices on an AWS EKS (Elastic Kubernetes Service) cluster. It focuses on best practices for organizing repositories and managing infrastructure components like VPC, ACM, EKS, Prometheus, Grafana, and Alert Manager. The goal is to separate concerns for scalability and maintainability.
