@@ -45,6 +45,3 @@ This repository follows a modular approach:
   - **PR Workflow**: Automatically triggers the validation and review of Terraform code whenever a pull request (PR) is created or updated.
   - **CD Workflow**: Automatically detects changes in specific folders and triggers the deployment of those components.
 
-
-## Issues
-   ingress  Failed deploy model due to operation error Elastic Load Balancing v2: CreateLoadBalancer, https response error StatusCode: 400, RequestID: f7b233cd-2822-4396-a539-7db524243ef8, DuplicateLoadBalancerName: A load balancer with the same name 'dev-alb' exists, but with different settings
