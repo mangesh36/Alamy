@@ -27,11 +27,6 @@ This repository follows a modular approach:
 - This separation ensures that changes made to the VPC do not affect the EKS cluster, and vice versa.
 - You can update or modify a specific component without impacting others, adhering to best practices for infrastructure as code.
 
-### **Provider Version Management**
-
-- We specify the Terraform provider version with a major version lock, ensuring stability while automatically updating to the latest patch releases.
-- The provider version will always remain at version 5.x, ensuring compatibility with new features and bug fixes while avoiding breaking changes.
-
 ### **Resource Naming Convention**
 
 - A consistent naming convention is followed for resources to ensure clarity and avoid conflicts.
